@@ -26,8 +26,8 @@ class Team:
 
     def play_chant(self):
         pygame.mixer.music.stop()
-        pygame.mixer.music.load(self.chant)
-        pygame.mixer.music.play(-1)
+        # pygame.mixer.music.load(self.chant)
+        # pygame.mixer.music.play(-1)
 
     def draw_rival(self):
         self.display.blit(self.rival_image, (self.rival_pos_x, self.rival_pos_y))
